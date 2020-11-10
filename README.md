@@ -15,4 +15,4 @@ mvn compile exec:java -Dexec.mainClass=org.apache.beam.examples.NeighbourhoodPip
 
 
 #### Pipeline Dataflow Run commad
-java -jar target/word-count-beam-bundled-0.1.jar  --runner=DataflowRunner   --project=newyork-airbnb --region=us-central1 --tempLocation=gs://springml_gcp_bucket/temp/ --output=gs://springml_gcp_bucket/newyork-airbnb/output
+java -jar target/NeighbourhoodPipeline-bundled-0.1.jar  --runner=DataflowRunner   --project=newyork-airbnb --region=us-central1 --tempLocation=gs://springml_gcp_bucket/temp/ --output=gs://springml_gcp_bucket/newyork-airbnb/output
