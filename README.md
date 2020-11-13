@@ -4,7 +4,7 @@ This is an example of how to read a CSV using Apache Commons inside Beam pipelin
 
 ## Steps to run the pipeline:-
 
-### Download the dataset
+#### Download the dataset
 Download the dataset in csv format from the Kaggle https://www.kaggle.com/dgomonov/new-york-city-airbnb-open-data
 
 #### Resolve the dependencies 
